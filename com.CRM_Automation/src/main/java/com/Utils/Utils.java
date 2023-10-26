@@ -17,7 +17,7 @@ public class Utils extends Test_base {
 	}
 
 	public static Object[][] ReadDataFromExcel(String sheetname) throws Throwable {
-		File file = new File("./src/main/java/com/testdata/crm (1).xlsx");
+		File file = new File("./com.CRM_Automation/src/main/java/com/testdata/crm (1).xlsx");
 
 		FileInputStream stream = new FileInputStream(file);
 
